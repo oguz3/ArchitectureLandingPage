@@ -3,13 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>ARCHITECTURE</title>
 </head>
 <body>
+    <div class="navbar">
+        <div class="left">
+            <img class="logo" src="./image/logo.jpg" alt="Logo">
+            <a class="menu-btn active" href="">Inspiration</a>
+            <a class="menu-btn" href="">Contact Us</a>
+        </div>
+        <div class="mid">
+            
+        </div>
+        <div class="right">
+            <a class="menu-btn" href="">Back</a>
+            <div class="toggle-icon" onclick="togg(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="left_text">
 
-    <h1>HI</h1>
+        </div>
+        <div class="mid_slider">
+            <div class="v_slider">
+                <img src="./image/slider_1.jpg" alt="">
+                <img src="./image/slider_1.jpg" alt="">
+                <img src="./image/slider_1.jpg" alt="">
+            </div>
+            <div class="destroy">
+                <button type="button" id="destroy">
+                    <img src="./image/dest.webp" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="right_text">
 
-    <script src="./js/slider.js"></script>
+        </div>
+    </div>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
