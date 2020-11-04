@@ -5,3 +5,5 @@
 ### Desktop UI
 
 ![Screenshot](./Screenshot/main.jpg)
+
+##### fonts are incompatible
